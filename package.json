@@ -1,0 +1,19 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "similarity string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "mohan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "compare-strings": "^1.1.0"
+    
+  }
+}
