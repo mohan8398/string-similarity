@@ -9,7 +9,7 @@ In your code:
 
 ```javascript
 var compareStrings = require('compare-strings');
-var similarity = compareStrings('healed', 'sealed');
+var similarity = compareStrings('maple', 'apple');
 ```
 ## API
 
@@ -27,3 +27,9 @@ Order does not make a difference.
 ##### Returns
 
 (number): A fraction from 0 to 1, both inclusive. Higher number indicates more similarity
+
+##### Examples
+
+```javascript
+var similarity = compareStrings('apple','maple');
+// → 0.7000000000000001
